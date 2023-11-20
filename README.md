@@ -114,7 +114,7 @@ Please note you can technically use any source IP address, mine in this case is 
 
 Here's our packet capture via `tcpdump` on the target host!
 
-![Packet capture](./images/pktdump_host.png)
+![Packet capture](https://raw.githubusercontent.com/deaconn-net/how-to-launch-a-dos-attack-and-drop-it/main/images/pktdump_host.png)
 
 I'd recommend messing around with settings and you can technically launch many type of attacks using this tool in protocols such as UDP, TCP, and ICMP. It's really beneficial knowing how to do this from a security standpoint so you can test your network filters.
 
@@ -146,7 +146,7 @@ You can confirm the rule was created with the following command.
 iptables -L -n -v
 ```
 
-![Iptables Output](./images/iptables.png)
+![Iptables Output](https://raw.githubusercontent.com/deaconn-net/how-to-launch-a-dos-attack-and-drop-it/main/images/iptables.png)
 
 You can launch the attack again and watch the **pckts** and **bytes** counters increment.
 
